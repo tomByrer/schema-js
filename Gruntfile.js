@@ -23,7 +23,7 @@ module.exports = function(grunt) {
             build: {
                 options: {
                     position: 'top',
-                    banner: "/*! <%= pkg.name %>.js (Version <%= pkg.version %>) <%= grunt.template.today(\"yyyy-mm-dd\") %> */\n",
+                    banner: "/*! https://schema.io <%= pkg.name %>.js (Version <%= pkg.version %>) <%= grunt.template.today(\"yyyy-mm-dd\") %> */\n",
                 },
                 files: [
                     {
@@ -36,7 +36,7 @@ module.exports = function(grunt) {
         uglify: {
             build: {
                 options: {
-                    banner: "/*! <%= pkg.name %>.js (Version <%= pkg.version %>) <%= grunt.template.today(\"yyyy-mm-dd\") %> */\n"
+                    banner: "/*! https://schema.io <%= pkg.name %>.js (Version <%= pkg.version %>) <%= grunt.template.today(\"yyyy-mm-dd\") %> */\n"
                 },
                 files: [
                     {
